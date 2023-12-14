@@ -1,6 +1,6 @@
 let mainJob = document.querySelector('.job-header__title');
 let companyElement = mainJob.querySelector('.btn-link');
-let companyName = companyElement.innerText;
+let companyName = companyElement.innerText.trim();
 let titleElement = mainJob.querySelector('.text-break');
 let jobName = titleElement.getAttribute('title');
 let salaryElement = document.querySelector('.text-primary');
